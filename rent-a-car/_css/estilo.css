@@ -1,0 +1,163 @@
+@font-face{
+    font-family: "font-01";
+    src: url(../_fonts/the_next_font.ttf)
+}
+#interface{
+    width: 1000px;
+    height: 990px;
+    margin: 0px auto 0px auto;
+}
+.slider{
+    margin: 0; 
+    padding: 0;
+    display: block;
+    height: 293px;
+    width: 100pw;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+.slider img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+
+}
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+} 
+#carros{
+    display: block;
+    float:right;
+    width: 100%; 
+}
+.carro{
+    margin-left: 30px;
+    display: block;
+    float: left;
+    width: 315px;
+    height: 390px;
+    border: solid 1px #ccc;
+    padding: 3px;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 3px 3px 2px grey;
+}
+.carro h2{
+    font-size: 15pt;
+}
+.carro img{
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+}
+#promocoes{
+    float: right;
+    width: 400px;
+    height: 930px;
+    background-color: #F0F0F0;
+    margin-top: 115px
+}
+.title-1{
+    font-size: 26pt;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: font-01;
+    margin-top: 5px
+}
+.title-2{
+    padding: 5px;
+    text-align: justify;
+    margin-top: -25px;
+    color: white;
+    background-color: #fca001
+}
+#tabela{
+    margin-top: 113px;
+    width: 90%;
+	border: 3px solid #d2520b; /* borda da tabela */
+	border-spacing: 0px; /* espaçamento da borda ao texto */
+	margin-left: auto; /* centralizado */
+	margin-right: auto; /* centralizado */
+    box-shadow: 0px 0px 3px #000000;
+}
+#tabela td { /* para toda célula da tabela */
+	border: 1px solid #d2520b; /* borda */
+	padding: 10px; /* espaçamento interno */
+	vertical-align: top; /* alinhamento na vertical pelo topo */
+}
+.cd {
+	background-color: #fca001;
+}
+
+#tabela .ce{
+	color: #fff;
+	background-color: #e3951b;	
+	vertical-align: top;
+	font-weight: bold;
+	text-align: center;
+}
+#informacoes{
+    float: left;
+    width: 580px;
+    border-right: 1px solid #000000;
+    height: 970px
+}
+#table{
+    font-family: font-01;
+    font-size: 14pt;
+    background-color: #fca001;
+    color: white;
+}
+#textmapa{
+    text-align: center;
+    background-color: #fca001;
+    font-size: 16pt;
+    color: white;
+    font-family: font-01;
+    text-transform: uppercase;
+    width: 90%;
+    margin: 5%
+        
+}
+#mapa{
+    margin-left: 5%;
+}

@@ -1,0 +1,25 @@
+@font-face{
+    font-family: "font-01";
+    src: url(../_fonts/theboldfont.ttf)
+}
+#interface{
+    width: 1000px;
+    margin: 0px auto 0px auto
+}
+.img{
+    width: 300px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px
+}
+.title-01{
+    text-align: center;
+    font-family: font-01;
+    font-size: 36pt
+}
+.title-02{
+    text-align: center;
+    font-family: font-01;
+    font-size: 16pt
+}

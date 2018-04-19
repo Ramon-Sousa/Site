@@ -1,0 +1,81 @@
+#contato{
+    width: 1000px;
+    margin: 0px auto 0px auto
+}
+input:hover {
+	background-color: #fca001;
+}
+legend {
+	color: #e3651b;
+	font-weight: bold;
+	font-size: 13pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+fieldset {
+	border-color: #e3651b;
+	margin: 20px;
+    font-weight: bolder;
+    font-size: 13pt
+}
+
+fieldset#sexo {
+	width:500px;
+}
+#enderecoimg {
+	float:right;
+    margin-top: -200px;
+    width: 200px;
+    opacity: .7
+
+}
+
+#usuarioimg {
+	float:right;
+    margin-top: -140px;
+    width: 200px;
+    opacity: .7
+
+}
+#informacoesimg {
+	float:right;
+    margin-top: -200px;
+    width: 200px;
+    opacity: .7
+
+}
+#mensagemimg {
+	float:right;
+    margin-top: -200px;
+    width: 200px;
+    opacity: .7
+
+}
+
+#carroimg {
+	float:right;
+    margin-top: -200px;
+    width: 200px;
+    opacity: .7
+
+}
+#pagamentoimg{
+    float:right;
+    margin-top: -230px;
+    margin-right: 30px;
+    width: 200px;
+    opacity: .7
+}
+#botaoenviar{
+    text-align:center;
+    font-weight: bold;
+    font-size: 16pt;
+    text-transform: uppercase;
+    color: white;
+    background-color: #fca001;
+    height: 30px;
+    margin: auto;
+}
+a:link 
+{ 
+text-decoration:none; 
+} 

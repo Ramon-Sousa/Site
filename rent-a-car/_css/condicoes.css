@@ -1,0 +1,32 @@
+#interface{
+    width: 1000px;
+    margin: 0px auto 0px auto;
+}
+#requisitos{
+    list-style: none
+}
+#requisitos li{
+    font-size: 14pt;
+    text-align: justify;
+}
+#titles{
+    font-size: 20pt;
+    text-align: center;
+    color: #fca001
+}
+#title2{
+    font-size: 20pt;
+    text-align: center;
+    color: black
+}
+
+#termos{
+    font-size: 14pt;
+    text-align: justify;
+}
+#condicoes{
+    font-size: 32pt;
+    text-align: center;
+    color: #fca001;
+
+}

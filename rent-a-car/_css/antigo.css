@@ -1,0 +1,159 @@
+@font-face{
+	font-family: 'fonte menu';
+	src:url(../_fonts/moon_get-Heavy.otf);
+}@font-face{
+	font-family: 'fonte02';
+	src:url(../_fonts/BebasKai-Regular.otf);
+}
+#interface{
+	background-color:#fff;
+	width: 1000px;
+	margin: 0px auto 0px auto;
+    margin-top: 100px;
+	padding: 10px;
+    border: solid 0px;
+	/*box-shadow: 0px 0px 1px rgba(0,0,0,.8);*/
+}
+/*#cabecalho{
+	border-bottom: 1px #606060 solid;
+	height: 150px;
+	background: url(../logo.png) no-repeat 0px 80px;
+}*/
+#cabecalho01{
+    background-color: #000;
+    width: 1280px;
+    height: 30px;
+	margin: 0px auto 0px auto;
+	padding: 10px;
+}
+#logo{
+    position: relative; /* a partir de onde a imagem está */
+	top: -100px; /* sobe a image */
+	left: -150px;
+    width: 278px;
+    height: 136px;
+}
+#email{
+    font-family: fonte02;
+    color: white;
+    font-size: 12pt;
+    margin-top: 3px;
+    margin-left: 93px;
+}
+#emailicon{
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-top: -43px;
+    margin-left: 26px;
+}
+#sacicon{
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-top: -43px;
+    margin-left: 310px;
+}
+#SAQ{
+    font-family: fonte02;
+    color: white;
+    font-size: 12pt;
+    margin-top: -41px;
+    margin-left: 368px;
+}
+#menu{
+    display: block;
+}
+#menu ul{
+    list-style: none;
+    font-family: fonte menu;
+    text-transform: uppercase;
+   text-align: center;
+    padding: 0px; /* espaçamento interno */
+	margin: 0px; /* espaçamento externo */
+	top: -25px;
+}
+#inicio{
+    color: rgba(254,0,0,1);
+}
+#menu li{
+	display: inline-block; /* um ao lado do outro */
+	background-color: ; /* cor do fundo */
+	padding: 10px; /* espaçamento interno */
+	margin: 2px; /* espaçamento externo */
+}
+#menu li:hover{
+	background-color: #0000; /* cor do fundo */
+	transition: color 1s;/* a mudança de background vai demorar 1s */
+	color: rgba(255, 42, 0,1);
+}
+#menu a{
+	color: #000; /* cor do texto do link */
+	text-decoration: none; /* tira o sublinhado do link */
+}
+#rodape{
+	clear:both;
+	border-top: 1px solid #606060;
+}
+
+#rodape h3{
+	float: right;
+    padding-right: 150px;
+    margin-top: 5px;
+
+}
+#rodape img{
+	float: right;
+    padding-right: 80px;
+    width: 300px;
+    margin-top: -15px;
+}
+#rodape p{
+    font-size: 14pt;
+	text-align: center;
+	padding-top: 115px;
+
+}
+
+.footerlist{
+    float: left;
+    padding-left: 350px;
+    
+}
+
+.image { 
+	   position:relative;
+	   width:  150%; /* for IE 6 */
+}
+.fundo01{ 
+        margin: 10px;
+	   position:relative;
+	   width:  1000px; /* for IE 6 */
+}
+.iconecart{
+    position: inherit;
+    width: 35px;
+    float: left;
+    margin-top: -60px;
+    margin-left: 270px;
+}
+.comprar01{
+    position: relative;
+    font-size: 12pt;
+    width: 150px;
+    background-color: rgba(254,47,0,1);
+    padding: 15px 22px;
+    margin-top: -210px;
+    margin-left: 330px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.comprar01 a{
+    text-decoration: none;
+    color: black;
+    font-family: fonte02;
+    font-size: 20pt;
+    
+}
+

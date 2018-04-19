@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pt-br">
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="_css/Carros.css"/>
+     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <script src="_javascript/funcoes.js" type="text/javascript"></script>
+     <link href="_icones" rel="stylesheet">
+    <title>Site de aluguel de carros</title>
+<body>
+    <div class="topo">
+      <h1 class="logo_topo"> Rent a Car</h1>
+    </div>
+    <nav class="nav-bar">
+    <div class="nav-container"> 
+        <a id="nav-menu" class="nav-menu"><!--&#9776; Menu--></a>
+        <ul class="nav-list " id="nav">
+            <li> <a href="Home.html" id="tile1"><i class="icon-home"></i> Home</a></li>
+            <li> <a href="Carros.html" id="tile2"><i class="icon-carro"></i> Carros</a></li>
+            <li> <a href="Orcamento.html" id="tile3"><i class="icon-orcamento"></i> Orçamento</a></li>
+            <li> <a href="FaleConosco.html" id="tile4"><i class="icon-contato"></i> Fale Conosco</a></li>
+            <li> <a href="condicoes.html" id="tile5"><i class="ion-ios7-people-outline"></i> Condições</a></li>
+            <li> <a href="empresa.html" id="tile6"><i class="ion-bag"></i> Empresa</a></li>
+        </ul>
+    </div>
+</nav>  
+        <ul class="slider">
+            <li>
+                    <input type="radio" id="slide1" name="slide" checked>
+                    <label for="slide1"></label>
+                    <img src="_imagens/banner_img/10.jpg">
+            </li> 
+            <li>
+                    <input type="radio" id="slide2" name="slide" checked>
+                    <label for="slide2"></label>
+                    <img src="_imagens/banner_img/20.jpg">
+            </li> 
+            <li>
+                <input type="radio" id="slide3" name="slide" checked>
+                    <label for="slide3"></label>
+                    <img src="_imagens/banner_img/30.jpg">
+            </li>
+        </ul> 
+    
+        <!--
+        <div id="carros">
+                    <div class="carro" id="carroaluguel">
+                         <img src="_imagens/Classicos/celta.png"/>
+                            <h1>Celta 1.0 FLEX</h1>
+                            <p>Motor 1.0 FLEX,cambio manual, 2 portas.</p>
+                            <h2>R$55,00/Diaria</h2>
+                            </div>
+                    <div class="carro" id="galaxy">
+                         <img src="_imagens/Classicos/fiat-toro.png"/>
+                            <h1>Fiat Toro 1.8 FLEX</h1>
+                            <p>Motor 1.8 FLEX,AUTOMATICO, 4 portas.</p>
+                            <h2>R$87,00/Diaria</h2>
+                            </div>
+                    <div class="carro" id="corolla">
+                         <img src="_imagens/Classicos/corolla.png"/>
+                            <h1>Corolla 2.0 2017 </h1>
+                            <p>Motor 2.0 FLEX,AUTOMATICO, 4 portas.</p>
+                            <h2>R$115,00/Diaria</h2>
+                            </div>
+                    <div class="carro" id="carroaluguel">
+                         <img src="_imagens/Classicos/celta.png"/>
+                            <h1>Celta 1.0 FLEX</h1>
+                            <p>Motor 1.0 FLEX,cambio manual, 2 portas.</p>
+                            <h2>R$55,00/Diaria</h2>
+                            </div>
+                    <div class="carro" id="galaxy">
+                         <img src="_imagens/Classicos/fiat-toro.png"/>
+                            <h1>Fiat Toro 1.8 FLEX</h1>
+                            <p>Motor 1.8 FLEX,AUTOMATICO, 4 portas.</p>
+                            <h2>R$87,00/Diaria</h2>
+                            </div>
+                    <div class="carro" id="corolla">
+                         <img src="_imagens/Classicos/corolla.png"/>
+                            <h1>Corolla 2.0 2017 </h1>
+                            <p>Motor 2.0 FLEX,AUTOMATICO, 4 portas.</p>
+                            <h2>R$115,00/Diaria</h2>
+                            </div>
+    </div>  -->
+    <div id="interface">
+    <article id="informacoes">
+        <table id="tabela">
+							<caption id="table"> 
+								Tabela Descontos Abril
+							</caption>
+							<tr> <!-- nova linha -->
+								<td class="ca"> Carro Alugado </td>
+                                <td class="ca"> 1 Dia </td>
+                                <td class="ca"> 2 Dias </td>
+                                <td class="ca"> 3 Dias </td>
+							</tr>
+							<tr> <!-- nova linha --> 
+								<td class="ce"> HB20 </td>
+								<td class="cd"> R$68,00 </td>
+                                <td class="cd"> R$122,40 </td>
+                                <td class="cd"> R$189,72 </td>
+							</tr>
+							<tr> <!-- nova linha -->		
+								<td class="ce"> GOL </td>
+								<td class="cd"> R$56,00 </td>
+								<td class="cd"> R$100,80 </td>
+								<td class="cd"> R$156,24 </td>
+							</tr>
+							<tr> <!-- nova linha -->  
+								<td class="ce"> SAVEIRO </td>
+								<td class="cd"> R$68,00 </td>
+								<td class="cd"> R$122,40 </td>
+                                <td class="cd"> R$189,72 </td>
+							</tr>
+						</table>  
+            <p id="textmapa">Onde nos encontrar</p>
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14944.965870263613!2d-47.398063039800775!3d-20.537298842770376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a89d5b8cf44b%3A0xb0b4b2840d44ac6!2sMovida+Aluguel+de+Carros!5e0!3m2!1spt-BR!2sbr!4v1523842690464" width="90%" height="450" frameborder="0" style="border:2px solid #fca001" allowfullscreen></iframe>
+        
+    </article>    
+        
+    <aside id="promocoes">
+        <div id="promos">
+            <p class="title-1">Promoções</p>
+            <div id="carros">
+                    <div class="carro" id="carroaluguel">
+                         <img src="_imagens/Classicos/agile-desc.png"/>
+                            <h1>Chevrolet AGILE 2011</h1>
+                            <p>Motor 1.4 FLEX,cambio  MANUAL, 4 portas.</p>
+                        <strike><h2>R$75,00/Diaria</h2></strike>
+                            <h2>R$67,50/Diaria</h2>
+                            </div>
+                    <div class="carro" id="carroaluguel">
+                         <img src="_imagens/Classicos/celta-desc.png"/>
+                            <h1>Chevrolet CELTA 2012</h1>
+                            <p>Motor 1.0 FLEX, MANUAL, 4 portas.</p>
+                          <strike><h2>R$66,00/Diaria</h2></strike>
+                            <h2>R$59,40/Diaria</h2>
+                            </div>
+            </div>
+            </div>
+        </aside>
+    </div>
+ <footer class="footer-basic-centered">
+
+			<p class="footer-company-motto">Rent a Car</p>
+
+			<p class="footer-links">
+				<a href="Home.html">Home</a>
+				·
+				<a href="Carros.html">Carros</a>
+				·
+				<a href="Orcamento.html">Orçamento</a>
+				·
+				<a href="FaleConosco.html">Fale Conosco</a>
+				·
+				<a href="condicoes.html">Condições</a>
+				·
+				<a href="empresa.html">Empresa</a>
+			</p>
+
+			<p class="footer-company-name">Ramon Sousa-Marcelo Souza &copy; 2018</p>
+
+		</footer>
+
+	</body>
+
+</html>

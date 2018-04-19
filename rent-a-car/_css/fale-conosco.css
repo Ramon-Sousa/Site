@@ -1,0 +1,46 @@
+#interface{
+    width: 1000px;
+    margin: auto
+}
+#contato{
+    width: 1000px;
+    margin: 0px auto 0px auto;
+
+}
+input:hover {
+	background-color: #fca001;
+}
+legend {
+	color: #e3651b;
+	font-weight: bold;
+	font-size: 13pt;
+	font-family: Verdana, Geneva, sans-serif;
+    text-align: center
+}
+fieldset {
+	border-color: #e3651b;
+	margin: 20px;
+    font-weight: bolder;
+    font-size: 13pt
+}
+#botaoenviar{
+    text-align:center;
+    font-weight: bold;
+    font-size: 16pt;
+    text-transform: uppercase;
+    color: white;
+    background-color: #fca001;
+    height: 30px;
+    margin: auto;
+}
+a:link 
+{ 
+text-decoration:none; 
+} 
+#faleimg{
+    float:right;
+    margin-top: -250px;
+    margin-right: -10px;
+    width: 300px;
+    opacity: .7
+}
